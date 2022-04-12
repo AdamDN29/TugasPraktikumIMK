@@ -14,7 +14,7 @@ public class UI : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-	private void Awake()
+    private void Awake()
     {
         _controls = new Controls();
     }
